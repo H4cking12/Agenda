@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+section {
+    margin-top: 80px; 
+}
+
+
+.navbar {
+    z-index: 1000;
+}
+
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+#menu .list-group-item {
+    font-weight: bold;
+}
+
+
+#cart-items-modal {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#cart-items-modal .d-flex {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.stars {
+    color: gold;
+}
+
+/* Estilos para el Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+
+.modal-body form .form-control {
+    margin-bottom: 15px;
+}
+
+.modal-body form .btn {
+    width: 100%;
+}
+
+#blog {
+    background-color: #f8f9fa;
+}
+
+#blog .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#blog .card-body {
+    padding: 20px;
+}
+
+#blog .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#blog .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#blog .stars {
+    color: gold;
+}
+
+#blog .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    #blog .card {
+        margin-bottom: 20px;
+    }
+}
